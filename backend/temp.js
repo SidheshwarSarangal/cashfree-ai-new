@@ -1369,7 +1369,7 @@ ansd={
   }
 
  /* "payment_method": {
-  "netbanking": {
+  "enach": {
     "channel": "link"
   }
 }*/
@@ -1379,4 +1379,14 @@ ansd={
     "channel": "link"
   }
 }
+*/
+
+
+/*
+Proceeding with eNACH...
+monthly-subscription-pay.component.ts:222 eNACH Data (valid form): netbanking
+monthly-subscription-pay.component.ts:228 Proceeding with Debit Card Payment...
+monthly-subscription-pay.component.ts:236 Form Data (Valid): {cardHolderName: 'Sid', cardNetwork: 'mastercard', cardNumber: '4444444444444448', expirationMonth: '01', expirationYear: '28', …}cardHolderName: "Sid"cardNetwork: "mastercard"cardNumber: "4444444444444448"cvv: "5555"expirationMonth: "01"expirationYear: "28"paymentChannel: "online"[[Prototype]]: Object
+monthly-subscription-pay.component.ts:241 Proceeding with UPI Payment...
+monthly-subscription-pay.component.ts:249 Form Data (Valid): 
 */
